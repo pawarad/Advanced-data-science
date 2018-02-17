@@ -1,0 +1,666 @@
+2018-02-16 21:14:23,361 - INFO - Directories cleanup complete.
+2018-02-16 21:14:57,505 - DEBUG - Using access key provided by client.
+2018-02-16 21:14:57,505 - DEBUG - Using secret key provided by client.
+2018-02-16 21:14:57,506 - INFO - Initializing zip download.
+2018-02-16 21:14:58,908 - INFO - Log file log20080101.zip successfully downloaded
+2018-02-16 21:15:00,347 - INFO - Log file log20080201.zip successfully downloaded
+2018-02-16 21:15:01,564 - INFO - Log file log20080301.zip successfully downloaded
+2018-02-16 21:15:04,270 - INFO - Log file log20080401.zip successfully downloaded
+2018-02-16 21:15:06,146 - INFO - Log file log20080501.zip successfully downloaded
+2018-02-16 21:15:07,710 - INFO - Log file log20080601.zip successfully downloaded
+2018-02-16 21:15:09,195 - INFO - Log file log20080701.zip successfully downloaded
+2018-02-16 21:15:10,938 - INFO - Log file log20080801.zip successfully downloaded
+2018-02-16 21:15:12,094 - INFO - Log file log20080901.zip successfully downloaded
+2018-02-16 21:15:13,749 - INFO - Log file log20081001.zip successfully downloaded
+2018-02-16 21:15:14,929 - INFO - Log file log20081101.zip successfully downloaded
+2018-02-16 21:15:16,719 - INFO - Log file log20081201.zip successfully downloaded
+2018-02-16 21:15:16,720 - INFO - All log files downloaded for 2008
+2018-02-16 21:15:21,636 - INFO - Zip files successfully extracted to folder: downloaded_zips_unzipped.
+2018-02-16 21:15:40,089 - INFO - All the csv read into individual dataframes
+2018-02-16 21:15:40,165 - INFO - Count of Null values for downloaded_zips_unzipped\log20080101.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           3729
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      125368
+dtype: int64 
+2018-02-16 21:15:40,174 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:15:40,179 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:15:40,183 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:15:40,769 - INFO - Count of Null values for downloaded_zips_unzipped\log20080201.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          20662
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      222875
+dtype: int64 
+2018-02-16 21:15:40,789 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:15:40,804 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:15:40,819 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:15:42,060 - INFO - Count of Null values for downloaded_zips_unzipped\log20080301.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           5620
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      325107
+dtype: int64 
+2018-02-16 21:15:42,072 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:15:42,082 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:15:42,090 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:15:43,324 - INFO - Count of Null values for downloaded_zips_unzipped\log20080401.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          30704
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      347456
+dtype: int64 
+2018-02-16 21:15:43,352 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:15:43,374 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:15:43,395 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:15:45,461 - INFO - Count of Null values for downloaded_zips_unzipped\log20080501.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          21581
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      631250
+dtype: int64 
+2018-02-16 21:15:45,486 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:15:45,508 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:15:45,531 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:15:47,600 - INFO - Count of Null values for downloaded_zips_unzipped\log20080601.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           5763
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      224287
+dtype: int64 
+2018-02-16 21:15:47,610 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:15:47,620 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:15:47,627 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:15:48,478 - INFO - Count of Null values for downloaded_zips_unzipped\log20080701.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          21492
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      226706
+dtype: int64 
+2018-02-16 21:15:48,500 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:15:48,518 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:15:48,533 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:15:49,944 - INFO - Count of Null values for downloaded_zips_unzipped\log20080801.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          18936
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      278679
+dtype: int64 
+2018-02-16 21:15:49,960 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:15:49,973 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:15:49,985 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:15:51,163 - INFO - Count of Null values for downloaded_zips_unzipped\log20080901.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          13933
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      157893
+dtype: int64 
+2018-02-16 21:15:51,179 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:15:51,191 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:15:51,200 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:15:52,475 - INFO - Count of Null values for downloaded_zips_unzipped\log20081001.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          37738
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      234603
+dtype: int64 
+2018-02-16 21:15:52,501 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:15:52,529 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:15:52,550 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:15:54,398 - INFO - Count of Null values for downloaded_zips_unzipped\log20081101.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          10992
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      263144
+dtype: int64 
+2018-02-16 21:15:54,413 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:15:54,424 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:15:54,434 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:15:55,698 - INFO - Count of Null values for downloaded_zips_unzipped\log20081201.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              2
+size          32709
+idx               2
+norefer           0
+noagent           0
+find              2
+crawler           2
+browser      219816
+dtype: int64 
+2018-02-16 21:15:55,728 - INFO - There are 2 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:15:55,747 - INFO - There are 2 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:15:55,768 - INFO - There are 2 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:15:57,456 - INFO - Rows removed where ip, date, time, cik or accession were null.
+2018-02-16 21:15:57,456 - INFO - NaN values in browser replaced with maximum count browser.
+2018-02-16 21:15:57,457 - INFO - NaN values in idx replaced with maximum count idx.
+2018-02-16 21:15:57,457 - INFO - NaN values in code replaced with maximum count code.
+2018-02-16 21:15:57,460 - INFO - NaN values in norefer replaced with 0.
+2018-02-16 21:15:57,460 - INFO - NaN values in noagent replaced with 0.
+2018-02-16 21:15:57,461 - INFO - NaN values in find replaced with maximum count find.
+2018-02-16 21:15:57,461 - INFO - NaN values in crawler replaced with 0.
+2018-02-16 21:15:57,461 - INFO - NaN values in extension replaced with maximum count extension.
+2018-02-16 21:15:57,462 - INFO - NaN values in zone replaced with maximum count zone.
+2018-02-16 21:15:57,462 - INFO - NaN values in size replaced with mean value of size.
+2018-02-16 21:15:57,463 - INFO - New column added to dataframe: Mean of size.
+2018-02-16 21:15:57,463 - INFO - New column added to dataframe: Max count of browser.
+2018-02-16 21:15:57,463 - INFO - New column added to dataframe: Count of distinct ip per month.
+2018-02-16 21:15:57,464 - INFO - New column added to dataframe: Count of distinct cik per month.
+2018-02-16 21:20:46,827 - ERROR - [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\HP\\Desktop\\ADS\\Assignment\\downloaded_zips\\log20081201.zip'
+2018-02-16 21:21:00,737 - INFO - Directories cleanup complete.
+2018-02-16 21:22:02,042 - DEBUG - Using access key provided by client.
+2018-02-16 21:22:02,042 - DEBUG - Using secret key provided by client.
+2018-02-16 21:22:02,043 - INFO - Initializing zip download.
+2018-02-16 21:22:03,554 - INFO - Log file log20080101.zip successfully downloaded
+2018-02-16 21:22:04,934 - INFO - Log file log20080201.zip successfully downloaded
+2018-02-16 21:22:05,697 - INFO - Log file log20080301.zip successfully downloaded
+2018-02-16 21:22:06,981 - INFO - Log file log20080401.zip successfully downloaded
+2018-02-16 21:22:09,066 - INFO - Log file log20080501.zip successfully downloaded
+2018-02-16 21:22:09,905 - INFO - Log file log20080601.zip successfully downloaded
+2018-02-16 21:22:10,958 - INFO - Log file log20080701.zip successfully downloaded
+2018-02-16 21:22:11,918 - INFO - Log file log20080801.zip successfully downloaded
+2018-02-16 21:22:12,909 - INFO - Log file log20080901.zip successfully downloaded
+2018-02-16 21:22:14,374 - INFO - Log file log20081001.zip successfully downloaded
+2018-02-16 21:22:15,273 - INFO - Log file log20081101.zip successfully downloaded
+2018-02-16 21:22:16,639 - INFO - Log file log20081201.zip successfully downloaded
+2018-02-16 21:22:16,639 - INFO - All log files downloaded for 2008
+2018-02-16 21:22:21,173 - INFO - Zip files successfully extracted to folder: downloaded_zips_unzipped.
+2018-02-16 21:22:40,720 - INFO - All the csv read into individual dataframes
+2018-02-16 21:22:40,802 - INFO - Count of Null values for downloaded_zips_unzipped\log20080101.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           3729
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      125368
+dtype: int64 
+2018-02-16 21:22:40,810 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:22:40,814 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:22:40,818 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080101.csv
+2018-02-16 21:22:41,413 - INFO - Count of Null values for downloaded_zips_unzipped\log20080201.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          20662
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      222875
+dtype: int64 
+2018-02-16 21:22:41,432 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:22:41,448 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:22:41,465 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080201.csv
+2018-02-16 21:22:42,789 - INFO - Count of Null values for downloaded_zips_unzipped\log20080301.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           5620
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      325107
+dtype: int64 
+2018-02-16 21:22:42,803 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:22:42,812 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:22:42,822 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080301.csv
+2018-02-16 21:22:43,969 - INFO - Count of Null values for downloaded_zips_unzipped\log20080401.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          30704
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      347456
+dtype: int64 
+2018-02-16 21:22:43,994 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:22:44,012 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:22:44,027 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080401.csv
+2018-02-16 21:22:46,118 - INFO - Count of Null values for downloaded_zips_unzipped\log20080501.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          21581
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      631250
+dtype: int64 
+2018-02-16 21:22:46,150 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:22:46,173 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:22:46,193 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080501.csv
+2018-02-16 21:22:48,283 - INFO - Count of Null values for downloaded_zips_unzipped\log20080601.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size           5763
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      224287
+dtype: int64 
+2018-02-16 21:22:48,297 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:22:48,304 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:22:48,310 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080601.csv
+2018-02-16 21:22:49,210 - INFO - Count of Null values for downloaded_zips_unzipped\log20080701.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          21492
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      226706
+dtype: int64 
+2018-02-16 21:22:49,228 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:22:49,241 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:22:49,257 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080701.csv
+2018-02-16 21:22:50,704 - INFO - Count of Null values for downloaded_zips_unzipped\log20080801.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          18936
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      278679
+dtype: int64 
+2018-02-16 21:22:50,721 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:22:50,738 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:22:50,750 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080801.csv
+2018-02-16 21:22:51,922 - INFO - Count of Null values for downloaded_zips_unzipped\log20080901.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          13933
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      157893
+dtype: int64 
+2018-02-16 21:22:51,934 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:22:51,942 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:22:51,950 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20080901.csv
+2018-02-16 21:22:53,168 - INFO - Count of Null values for downloaded_zips_unzipped\log20081001.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          37738
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      234603
+dtype: int64 
+2018-02-16 21:22:53,196 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:22:53,216 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:22:53,239 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081001.csv
+2018-02-16 21:22:55,401 - INFO - Count of Null values for downloaded_zips_unzipped\log20081101.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              0
+size          10992
+idx               0
+norefer           0
+noagent           0
+find              0
+crawler           0
+browser      263144
+dtype: int64 
+2018-02-16 21:22:55,417 - INFO - There are 0 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:22:55,431 - INFO - There are 0 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:22:55,445 - INFO - There are 0 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081101.csv
+2018-02-16 21:22:56,732 - INFO - Count of Null values for downloaded_zips_unzipped\log20081201.csv in all the variables:
+ip                0
+date              0
+time              0
+zone              0
+cik               0
+accession         0
+extention         0
+code              2
+size          32709
+idx               2
+norefer           0
+noagent           0
+find              2
+crawler           2
+browser      219816
+dtype: int64 
+2018-02-16 21:22:56,755 - INFO - There are 2 idx which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:22:56,773 - INFO - There are 2 norefer which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:22:56,787 - INFO - There are 2 noagent which are not 0 or 1 in the log file downloaded_zips_unzipped\log20081201.csv
+2018-02-16 21:22:58,532 - INFO - Rows removed where ip, date, time, cik or accession were null.
+2018-02-16 21:22:58,532 - INFO - NaN values in browser replaced with maximum count browser.
+2018-02-16 21:22:58,533 - INFO - NaN values in idx replaced with maximum count idx.
+2018-02-16 21:22:58,533 - INFO - NaN values in code replaced with maximum count code.
+2018-02-16 21:22:58,534 - INFO - NaN values in norefer replaced with 0.
+2018-02-16 21:22:58,534 - INFO - NaN values in noagent replaced with 0.
+2018-02-16 21:22:58,534 - INFO - NaN values in find replaced with maximum count find.
+2018-02-16 21:22:58,535 - INFO - NaN values in crawler replaced with 0.
+2018-02-16 21:22:58,535 - INFO - NaN values in extension replaced with maximum count extension.
+2018-02-16 21:22:58,536 - INFO - NaN values in zone replaced with maximum count zone.
+2018-02-16 21:22:58,536 - INFO - NaN values in size replaced with mean value of size.
+2018-02-16 21:22:58,536 - INFO - New column added to dataframe: Mean of size.
+2018-02-16 21:22:58,537 - INFO - New column added to dataframe: Max count of browser.
+2018-02-16 21:22:58,537 - INFO - New column added to dataframe: Count of distinct ip per month.
+2018-02-16 21:22:58,537 - INFO - New column added to dataframe: Count of distinct cik per month.
+2018-02-16 21:31:43,396 - INFO - All dataframes of csvs are combined and exported as csv: main_csv.csv.
+2018-02-16 21:32:16,606 - INFO - Compiled csv and log file zipped
+2018-02-16 21:32:16,606 - DEBUG - path=/
+2018-02-16 21:32:16,607 - DEBUG - auth_path=/akiaiytusdw6tniwf7gq20180216213216606783/
+2018-02-16 21:32:16,607 - DEBUG - Method: PUT
+2018-02-16 21:32:16,607 - DEBUG - Path: /
+2018-02-16 21:32:16,607 - DEBUG - Data: <CreateBucketConfiguration><LocationConstraint>us-west-2</LocationConstraint></CreateBucketConfiguration>
+2018-02-16 21:32:16,607 - DEBUG - Headers: {}
+2018-02-16 21:32:16,608 - DEBUG - Host: akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com:443
+2018-02-16 21:32:16,608 - DEBUG - Port: 443
+2018-02-16 21:32:16,608 - DEBUG - Params: {}
+2018-02-16 21:32:16,608 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:16,613 - DEBUG - Token: None
+2018-02-16 21:32:16,614 - DEBUG - StringToSign:
+PUT
+
+
+Sat, 17 Feb 2018 02:32:16 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/
+2018-02-16 21:32:16,614 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:s3VRz3CcBDp+ayVRxnxkd3/SuI8=
+2018-02-16 21:32:16,615 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Date': 'Sat, 17 Feb 2018 02:32:16 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:s3VRz3CcBDp+ayVRxnxkd3/SuI8=', 'Content-Length': '105'}
+2018-02-16 21:32:17,502 - DEBUG - Response headers: [('x-amz-id-2', '+kDybM/kdvKkKHRP6NkVdzFUnDfN4XU3Xov00UUOj0qlnMw039ba4V/3i8VxkJj6Sf/PHHCX8z4='), ('x-amz-request-id', 'BDF17458938DB95B'), ('Date', 'Sat, 17 Feb 2018 02:32:17 GMT'), ('Location', 'http://akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com/'), ('Content-Length', '0'), ('Server', 'AmazonS3')]
+2018-02-16 21:32:17,932 - DEBUG - path=/Problem2
+2018-02-16 21:32:17,932 - DEBUG - auth_path=/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:17,932 - DEBUG - Method: PUT
+2018-02-16 21:32:17,933 - DEBUG - Path: /Problem2
+2018-02-16 21:32:17,933 - DEBUG - Data: 
+2018-02-16 21:32:17,933 - DEBUG - Headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue'}
+2018-02-16 21:32:17,934 - DEBUG - Host: akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com:443
+2018-02-16 21:32:17,934 - DEBUG - Port: 443
+2018-02-16 21:32:17,934 - DEBUG - Params: {}
+2018-02-16 21:32:17,934 - DEBUG - Token: None
+2018-02-16 21:32:17,935 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:17,935 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:17,936 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:17,955 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:32:17,955 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:18,817 - DEBUG - Token: None
+2018-02-16 21:32:18,817 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:18,818 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:18,819 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:18,885 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:32:18,885 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:20,888 - DEBUG - Token: None
+2018-02-16 21:32:20,888 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:20,889 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:20,890 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:20,968 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:32:20,968 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:22,077 - DEBUG - Token: None
+2018-02-16 21:32:22,077 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:22,078 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:22,079 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:22,194 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:32:22,195 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:25,678 - DEBUG - Token: None
+2018-02-16 21:32:25,678 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:25,679 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:25,679 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:25,891 - DEBUG - encountered ConnectionAbortedError exception, reconnecting
+2018-02-16 21:32:25,891 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:32:40,239 - DEBUG - Token: None
+2018-02-16 21:32:40,239 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:32:40,241 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:32:40,242 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:32:40,309 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:32:40,309 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:33:00,659 - DEBUG - Token: None
+2018-02-16 21:33:00,659 - DEBUG - StringToSign:
+PUT
+qfngszLkUK0TKvnBecLDkQ==
+application/zip
+Sat, 17 Feb 2018 02:32:17 GMT
+/akiaiytusdw6tniwf7gq20180216213216606783/Problem2
+2018-02-16 21:33:00,661 - DEBUG - Signature:
+AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0=
+2018-02-16 21:33:00,662 - DEBUG - Final headers: {'User-Agent': 'Boto/2.48.0 Python/3.6.3 Windows/10', 'Content-Type': 'application/zip', 'Content-MD5': 'qfngszLkUK0TKvnBecLDkQ==', 'Content-Length': '138528838', 'Expect': '100-Continue', 'Date': 'Sat, 17 Feb 2018 02:32:17 GMT', 'Authorization': 'AWS AKIAIYTUSDW6TNIWF7GQ:U2xxXFkcBccjZ0tJ+Y701tznRE0='}
+2018-02-16 21:33:00,752 - DEBUG - encountered ConnectionResetError exception, reconnecting
+2018-02-16 21:33:00,752 - DEBUG - establishing HTTPS connection: host=akiaiytusdw6tniwf7gq20180216213216606783.s3.amazonaws.com, kwargs={'timeout': 70, 'port': 443}
+2018-02-16 21:33:17,125 - INFO - Amazon keys are invalid!!
