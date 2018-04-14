@@ -1,0 +1,20 @@
+<body>
+</br>
+</br>
+<h3>
+	
+</h3>
+ <link href="{{ url_for('static', filename= 'css/bootstrap.min.css')}}" rel= "stylesheet">
+ <link rel="shortcut icon"  href="{{ url_for('static' , filename= 'favicon.ico')}}" >
+<form>
+<div class="container">
+ <div class="form-group">
+    <label for="exampleInputFile">File Input</label>
+    <input type="file" id="exampleInputFile" name="filename" value="{{request.form.filename}}">
+  </div>
+  <br>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+</body>
