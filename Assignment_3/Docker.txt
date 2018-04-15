@@ -1,0 +1,6 @@
+These are the commands that we need to run to start our docker
+Docker:-
+
+docker run -p 7000:80 ranga11/flask6
+
+http://192.168.99.100:7000
