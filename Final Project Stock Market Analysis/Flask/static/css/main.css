@@ -1,0 +1,16 @@
+.proper-header{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.visible-text{
+    color: white;
+    text-align: center;
+}
