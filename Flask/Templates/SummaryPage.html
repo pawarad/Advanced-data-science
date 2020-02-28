@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Stock Market Analysis </title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}"/>
+    </head>
+
+<body class="bg-image" background="{{url_for('static', filename='images/stock_market.jpg')}}" >
+        <div class="visible-text">
+	        <p>Summary Page</p>
+        </div>
+ 
+ <table style="text-align: center; color: white; width: 100%" border="1">
+  <tr>
+    <!-- <th>Date</th>  -->
+    <th>Model Name</th>
+    <th>Mean Squared Error</th>
+    <th>R2_Score</th> 
+   <!--  <th>Low</th>
+    <th>Close</th>
+    <th>Volume</th>
+    <th>Label</th>
+    <th>Forecast</th> -->
+</tr>
+<!-- To convert Json data into tabluar data -->
+{% for d in data %}
+<tr style="text-align: center;">
+    <!-- <th>Date</th>  -->
+
+    {% for da in d %}
+    <td>{{ da }}</td>
+    {% endfor %}    
+    <!-- <th>{ {d[1].item} }</th>
+    <th>{ {d[2].item}}</th>
+    <th>{ {d[3].item}}</th>
+    <th>{ {d[4].item}}</th>
+    <th>{ {d[5].item}}</th>
+    <th>{ {d[6].item}}</th> -->
+</tr>
+{% endfor %}
+
+ </table>
+      
+  	
+    </body>
+
+</html>

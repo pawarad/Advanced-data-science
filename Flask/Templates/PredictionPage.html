@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Stock Market Analysis </title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/main.css')}}"/> -->
+    <link rel=stylesheet type=text/css href="../static/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.css">	
+
+</head>
+<!-- background="{{url_for('static', filename='images/stock_market.jpg')}}" -->
+<body class="bg-image">
+
+<img src="\static\images\var4"/>
+
+<div class="visible-text">
+    <p>Predictive Page</p>
+    <!-- To encapsulate -->
+  <!--   <img src={{var1}}> -->
+</div>
+<table style="text-align: center;width:100% color:white"  border="1">
+  <tr>
+  	<!-- <th>Date</th>  -->
+    <th>Date</th>
+    <th>Open</th>
+    <th>High</th> 
+    <th>Low</th>
+    <th>Close</th>
+    <th>Volume</th>
+    <th>Label</th>
+    <th>Forecast</th>
+</tr>
+<!-- To convert Json data into tabluar data -->
+{% for d in data %}
+<tr style="text-align: center;">
+  	<!-- <th>Date</th>  -->
+
+  	{% for da in d %}
+    <td>{{ da }}</td>
+	{% endfor %}    
+    <!-- <th>{ {d[1].item} }</th>
+    <th>{ {d[2].item}}</th>
+    <th>{ {d[3].item}}</th>
+    <th>{ {d[4].item}}</th>
+    <th>{ {d[5].item}}</th>
+    <th>{ {d[6].item}}</th> -->
+</tr>
+{% endfor %}
+
+ </table>
+
+</body>
+
+</html>

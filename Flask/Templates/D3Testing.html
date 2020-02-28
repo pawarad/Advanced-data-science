@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D3 tutorials</title>
+	<script src="https://d3js.org/d3-selection.v1.min.js"></script>
+</head>
+<body>
+
+<P>CHECKING</P>
+	<script>
+
+		var dataArray=[20,40,60];
+	var canvas = d3.select("body")
+		 		   .append("svg")
+		           .attr("width",500)
+		           .attr("height",500);
+
+	var bar = canvas.selectAll("rect")
+		.data(dataArray)
+		.enter()
+			.append("rect")
+			.attr("width",function (d){return d*10})
+			.attr("height",50)
+			.attr("y",function (d,i){return i * 100});
+	</script>
+
+
+</body>
+</html>
